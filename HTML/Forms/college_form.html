@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="collage_form" content="collage_form">
+    <title>Collage Form</title>
+</head>
+<body>
+
+        <fieldset>
+            <legend><h1>Welcome to Collage</h1></legend>
+            <form method="get" action="C:\Users\SSD\OneDrive\Desktop\Angular\HTML CSS JS\HTML\Forms\Get_Respons.html">
+                <h3>Please fill the Form</h3>
+                <table>
+                    <tr>
+                        <td><label for="fullname">Enter Your Name</label></td>
+                        <td><input type="text" id="fullname" placeholder="Enter Your Fullname"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="dob">Enter date of birth</label></td>
+                        <td><input type="dob" name="dob" id="dob" placeholder="dd/mm/yyyy"></td>
+                    </tr>
+                    <tr>
+                        <td>select your gender</td>
+                        <td>
+                            <ul>
+                                <li>
+                                    <input type="radio" name="gender" id="male" >
+                                    <label for="male">Male</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="gender" id="female">
+                                    <label for="female">Female</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="gender" id="other">
+                                    <label for="other">Other</label>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone">Enter your mobile number</label></td>
+                        <td><input type="tel" id="phone" placeholder="Enter Your mobile number"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Enter Email</label></td>
+                        <td><input type="email" name="email" id="email" placeholder="Emter email id"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="branch">Select Branch</label></td>
+                        <td>
+                            <select name="branch" id="branch">
+                                <option value="">--select branch--</option>
+                                <option value="Mechanical">Mechanical</option>
+                                <option value="Computer">Computer</option>
+                                <option value="Automobile">Automobile</option>
+                                <option value="Civil">Civil</option>
+                                <option value="Electrical & Electronics">Electrical & Electronics</option>
+                                <option value="Electronics & Communication">Electronics & Communication</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="hobbies">Special Services</label></td>
+                        <td>
+                            <li>
+                                <label for="c_bus">Bus Service</label>
+                                <input type="checkbox" id="c_bus">
+                            </li>
+                            <li>
+                                <label for="c_lunch">Lunch </label>
+                                <input type="checkbox" id="c_lunch">
+                            </li>
+                            <li>
+                                <label for="c_hostel">Hostel Facility</label>
+                                <input type="checkbox" id="c_hostel">
+                            </li>
+                            <li>
+                                <label for="c_dayscholar">Dayscholar</label>
+                                <input type="checkbox" id="c_dayscholar">
+                            </li>
+                        </td>
+                    </tr><br>
+                    <tr>
+                        <td><input type="submit" ></td>
+                        <td><input type="reset" value="Clear Form"></td>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>    
+</body>
+</html>
