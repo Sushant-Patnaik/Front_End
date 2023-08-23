@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="float" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        .floar-left{
+            float: left;
+        }
+        h1{
+           text-align: center;
+           text-decoration: underline;
+           font-style: oblique;
+           font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        img{
+            margin-right: 29px;
+        }
+        .clearfix::after{
+            content:".";
+            display: block;
+            clear: both;
+            height: 0;
+            visibility: hidden;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="clearfix">
+        <h1>Shiva the god of Uneverse</h1>
+        <img src="Shiva.jpg" class="floar-left" alt="Shiva" height="290px" width="300px">
+        <p>He is the Supreme Being in Shaivism, one of the major traditions within Hinduism. Shiva is known as The Destroyer within the Trimurti, the Hindu trinity which also includes Brahma and Vishnu. In the Shaivite tradition, Shiva is the Supreme Lord who creates, protects and transforms the universe.</p>
+    </div>
+    <hr>
+    <div class="clearfix">
+        <img src="Shiva.jpg" class="floar-left" alt="Shiva" height="290px" width="300px">
+        <p>Shiva, (Sanskrit: “Auspicious One”) also spelled Śiwa or Śiva, one of the main deities of Hinduism, whom Shaivites worship as the supreme god. Among his common epithets are Shambhu (“Benign”), Shankara (“Beneficent”), Mahesha (“Great Lord”), and Mahadeva (“Great God”). Shiva.</p>
+    </div>
+    <hr>
+    <div class="clearfix">
+        <img src="Shiva.jpg" class="floar-left" alt="Shiva" height="290px" width="300px">
+        <img src="Shiva.jpg" class="floar-left" alt="Shiva" height="290px" width="300px">
+
+    </div>
+    <hr>
+   
+
+    
+</body>
+</html>
