@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Layout" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        body{
+            width: fit-content;
+            margin: 0 auto;
+            font-size: medium;
+            font-style: italic;
+        }
+        header,section,article,footer,aside{
+            display: block;
+        }
+        header,footer{
+            padding: 0px;
+            text-align: center;
+        }
+        nav{
+            text-align: center;
+        }
+        nav ul{
+            list-style-type: none;
+            padding: 0;
+            margin-bottom: 0;
+        }
+        nav li{
+            display: inline-block;
+            margin: 0 0 0 90px;
+            width: 15px;
+            height: 30px;
+            
+        }
+        aside.aleft{
+            float: left;
+        }
+        aside.aright{
+            float: right;
+        }
+
+        section{
+            float: left;
+            width: 600px;
+            padding: 20px 20px 20px 20px;
+            border-left: 5px dashed rgb(12, 14, 131);
+            border-right: 5px dashed rgb(12, 14, 131);
+        
+
+        }
+        footer{
+            clear: both!important;
+            height: 100px;
+            padding: 10px;
+        }
+    </style>
+
+
+
+</head>
+<body>
+    <header><h1>Page Layout</h1></header><hr>
+    <nav>
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">help</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <aside class="aleft">
+        <figure>
+            <img src="Shiva.jpg" alt="img" width="250px" height="200px">
+            <figcaption style="text-align: center;" >artical image</figcaption>
+        </figure>
+        <div>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">help</a></li>
+            </ul>
+
+        </div>
+    </aside>
+    <section>
+        <article>
+            <header><h1><u>What is Lorem Ipsum?</u></h1></header>
+            <div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+            <p># End of artical</p>
+        </article>
+        <hr>
+        <article>
+            <header><h1><u>Why do we use it?</u></h1></header>
+            <div>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+            </div>
+            <p># End of artical</p>
+            <hr>
+        </article>
+    </section>
+    <aside class="aright">
+        <figure>
+            <img src="Shiva.jpg" alt="img" width="250px" height="200px">
+            <figcaption style="text-align: center;" >artical image</figcaption>
+        </figure>
+        <div>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">help</a></li>
+            </ul>
+
+        </div>
+    </aside>
+    <footer> <hr>|>> &copy; Sushant Patnaik. All Rights Reserved.2023 Har Har Mahadev</footer>
+    
+</body>
+</html>
