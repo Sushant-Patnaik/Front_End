@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    color: aliceblue;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+    display:flex; 
+    justify-content:center
+}
+li{
+    float: left;
+    
+    
+}
+li a{
+    color: rgb(13, 7, 51);
+    padding: 0px 15px 0px 15px;
+    display: inline-block;
+    margin: 25px 25px 25px 25px;
+    text-decoration: none;
+    font-size: xx-large;
+    font-weight: bold;
+    
+    
+    
+}
+li a:hover{
+    color: rgb(131, 224, 106);
+    display: inline-block;
+    background-color: rgba(18, 124, 182, 0.984);
+    border-radius: 20px;
+    font-size: 40px;
+}
+
+
+header a{
+    color: aliceblue;
+    text-decoration: none;
+}
+header{
+    margin: 0 auto ;
+    margin-top: 100px;
+    background-color: rgb(63, 148, 239);
+    background-image: url(LaborDay_SkinnyBanner_Tablet_V2.webp);
+    text-align: left;
+    padding: 5px;
+    height: 1000px;   
+    overflow: hidden; 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.logo{
+    padding: 5px;
+    width: 200px;
+    height: 80px;
+    display: block;
+    margin-right: auto;
+
+}
+header .divc{
+    width: fit-content;
+    height: fit-content;
+    margin-left: 300px;
+   
+}
+header .l1{
+    
+    color: rgb(5, 5, 84) ;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+header .l2{
+    color: rgb(239, 239, 244) ;
+    font-size: 30px;
+}
+header .l3{
+    
+    color: rgb(5, 5, 84) ;
+    font-size: 50px;
+}
+header .l4{
+    color: rgb(239, 239, 244) ;
+    background-color: rgb(5, 5, 84);
+    font-size: 30px;
+    margin-left: 200px;
+    padding: 30px 30px 30px 30px ;
+    border-radius: 30px;
+    text-align: center;
+}
+ header .l4:hover{
+    color: rgb(247, 13, 13) ;
+    font-size: 40px;
+    border-radius: 30px;
+}
+header .l5{
+    color:f9f8fc ;
+    font-size: 40px;
+    text-align: center;
+    position: fixed;
+    top: 1010px;
+    left: 0;
+    right: 0;   
+}
+footer{
+    color:aquamarine;
+    font-size: 20px;
+    background-color: rgb(14, 133, 149);
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.box1{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    padding: 100px 100px 100px 100px;
+}
+
+.botto_box{
+    display:flex; 
+    justify-content:center
+    
+}
+.box2{
+    float: left;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto ;
+    margin-right: 50px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-bottom: 200px;
+    
+}
+.box3{
+    float: left;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto ;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
