@@ -17,8 +17,7 @@ ul{
 }
 li{
     float: left;
-    
-    
+
 }
 li a{
     color: rgb(13, 7, 51);
@@ -35,7 +34,7 @@ li a{
 li a:hover{
     color: rgb(131, 224, 106);
     display: inline-block;
-    background-color: rgba(18, 124, 182, 0.984);
+    background-color: rgba(18, 124, 182, 0.983);
     border-radius: 20px;
     font-size: 40px;
 }
